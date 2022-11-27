@@ -5,7 +5,8 @@ Prepared by Talha Alvi and Farhan Wadia
 The purpose of this project is to explore applications of bio-inspired search algorithms in solving the load-balancing and optimal availability problem (or similar, related problems) for a micromobility service. Specifically, we plan to use publicly available data from [Bike Share Toronto](https://bikesharetoronto.com/). A key challenge with the operation of bike sharing services is the undersupply of bikes in areas with high demand, and oversupply of bikes in areas with low demand changing rapidly over the course of a day. To ensure bikes are available at stations from where users want to start their journey, and that parking spaces will be available at their destination, bike sharing services use relocating trucks to move bikes from some locations to others. Ensuring that every station in the network has adequate availability of bikes, and scheduling the truck trip of which locations to pick up bikes from, how many to pick up, and where to distribute them is a non-trivial task. In addition to the use of relocating trucks, some bike share operators have also began providing on-demand user incentives such as reduced pricing, or even paying users, to move bikes between particular locations.
 
 ## Bike Share Toronto Datasets
-Bike Share Toronto has several publicly available datasets which will be required for this project.
+Bike Share Toronto has several publicly available datasets which will be required for this project. The scope of data used for this project will be limited to data from October 2022.
+
 ### Ridership Dataset
 Monthly, anonymized ridership trip data in csv format from 2020 onwards can be downloaded from [Bike Share Toronto Ridership Data - City of Toronto Open Data Portal](https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/). 
 
@@ -50,5 +51,3 @@ Each json file contains the following features:
 `last_reported`: UNIX timestamp (in GMT +0000 timezone) of when the data was last fetched for the station
 `is_charging_station`: Values of `TRUE` or `FALSE`
 `status`: Values of `IN_SERVICE`, `NOT_IN_SERVICE`, `END_OF_LIFE
-
-The scope of data used for this project will be limited to data from October 2022.
