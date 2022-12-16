@@ -31,7 +31,7 @@ json  : 2.0.9
 
 ## Repository Structure
 ### Data Visualization
-Refer to the `Data_Visualization.ipynb` file for an exploratory data analysis. An html version of this file is also provided for reference.
+Refer to the `Data_Visualization.ipynb` file for an exploratory data analysis. An html version of this file is also provided for reference, and can be accessed online at https://farhanwadia.github.io/bikeshare_rebalancing/Data_Visualization.html.
 
 ### Modelling
 Refer to the `Modelling` folder. The `bike_share.ipynb` file shows how the Advantage Actor Critic (A2C) and Soft Actor Critic (SAC) developed for solving this problem can be run, and gives a brief overview of the modelling strategy. Please note that since the results for this project were initially obtained from separate Python scripts that were run for over 100,000 iterations, the notebook itself does not show the training details. However, all relevant data and plots from this process were saved and can be found in the `Modelling` folder. 
